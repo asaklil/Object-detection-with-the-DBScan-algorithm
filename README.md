@@ -12,5 +12,5 @@ Part 2: Improve the efficiency of this algorithm by using a KD-Tree:
           
         This part is divided into 3 experiences:
               .Exp1: Make sure our algorithm works, to do so compare the outputs of Part1 with Part2.
-              .Exp2: Run a program that will print the time complexity of the algorithms and compare them. Since the goal is to have a faster algorithm.
-              
+              .Exp2: Run a program that will print the time taken to find all the neighbors using linear method or the KD-tree method.
+              .Exp3: Print runtime of your DBScan program created in part 1, then replace the NearestNeighbors class by the NearestNeighborsKD class and compute               again the total runtime.
