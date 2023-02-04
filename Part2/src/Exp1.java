@@ -1,22 +1,10 @@
-/*
- * Incomplete Experiment 1 
- *
- * CSI2510 Algorithmes et Structures de Donnees
- * www.uottawa.ca
- *
- * Robert Laganiere, 2022
- *
-*/ 
+
 import java.util.List;
 import java.util.ArrayList;
 
 import java.io.*;
 import java.util.Scanner;
 
-/*
-NAME:Mohamed Ismail Asaklil
-STUDENT NUMBER: 0300243534
- */
 
 public class Exp1 {
   
