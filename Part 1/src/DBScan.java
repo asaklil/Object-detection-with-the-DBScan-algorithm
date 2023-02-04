@@ -163,36 +163,8 @@ public class DBScan {
         dbscan.setMinPts(minPoints);
         dbscan.findClusters();
 
-        dbscan.save("C:\\Users\\LENOVO\\OneDrive\\Documents\\ETUDE\\2nd year\\FALL TERM\\CSI2510\\Programming exercices\\Part1\\src\\Point_Cloud_1_clusters_1.2_10_57.csv");
+        dbscan.save("C:\\Users\\LENOVO\\OneDrive\\Documents\\..."); //put the location of your file
 
-        //Run of the first file Point_Cloud_2
-        String fileName1 = args[3];// file name is the second argument
-        double eps2 = Double.parseDouble(args[4]);// converting the args because by default they are Strings
-        int minPoints2 = Integer.parseInt(args[5]);
-
-
-        List<Point3D> myList1 = read(fileName1); // read Point_Cloud_2.csv
-        DBScan dbscan1 = new DBScan(myList1);
-
-        dbscan1.setEps(eps2);
-        dbscan1.setMinPts(minPoints2);
-        dbscan1.findClusters();
-
-        dbscan1.save("C:\\Users\\LENOVO\\OneDrive\\Documents\\ETUDE\\2nd year\\FALL TERM\\CSI2510\\Programming exercices\\Part1\\src\\Point_Cloud_2_clusters_1.0_10_57.csv");
-
-        //Run of the first file Point_Cloud_3
-        String fileName2 = args[6];// file name is the third argument
-        // we are going to use the same eps and minPts of Point_Cloud_2.csv !!!!!!!!
-
-
-        List<Point3D> myList2 = read(fileName2);// read Point_Cloud_3.csv
-        DBScan dbscan2 = new DBScan(myList2);
-
-        dbscan2.setEps(eps2);// we are going to use the same eps and minPts of Point_Cloud_2.csv !!!!!
-        dbscan2.setMinPts(minPoints2);// we are going to use the same eps and minPts of Point_Cloud_2.csv !!!!!
-        dbscan2.findClusters();
-
-        dbscan2.save("C:\\Users\\LENOVO\\OneDrive\\Documents\\ETUDE\\2nd year\\FALL TERM\\CSI2510\\Programming exercices\\Part1\\src\\Point_Cloud_3_clusters_1.0_10_57.csv");
 
         }
     }
