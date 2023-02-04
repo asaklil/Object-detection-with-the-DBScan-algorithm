@@ -1,8 +1,5 @@
 import java.util.List;
-/*
-NAME:Mohamed Ismail Asaklil
-STUDENT NUMBER: 0300243534
- */
+
 public class Exp2 {
     public static void main(String[] args) throws Exception {
 
