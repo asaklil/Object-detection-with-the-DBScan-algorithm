@@ -9,3 +9,8 @@ Part 2: Improve the efficiency of this algorithm by using a KD-Tree:
           1. Building the k-d tree by inserting all points in this binary tree. This will be done in the constructor of the new NearestNeighborsKD class.
           2. Finding the neighbors of a given point by searching in the binary k-d tree that should have a depth of O(logN). This will be done in the rangeQuery
           method.
+          
+        This part is divided into 3 experiences:
+              .Exp1: Make sure our algorithm works, to do so compare the outputs of Part1 with Part2.
+              .Exp2: Run a program that will print the time complexity of the algorithms and compare them. Since the goal is to have a faster algorithm.
+              
