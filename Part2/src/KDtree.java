@@ -1,7 +1,4 @@
-/*
-NAME:Mohamed Ismail Asaklil
-STUDENT NUMBER: 0300243534
- */
+
 public class KDtree {
     // class KDnode inside the KDtree class
     // in order to create a binary search tree we will use node
