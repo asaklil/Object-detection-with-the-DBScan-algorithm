@@ -1,8 +1,5 @@
 import java.util.List;
-/*
-NAME:Mohamed Ismail Asaklil
-STUDENT NUMBER: 0300243534
- */
+
 public class Exp3 {
     public static void main(String[] args) throws Exception {
         //THESE PARAMETERS ARE THE SAME USED IN BOTH OF DBSCAN AND DBSCAN USING KDtree
