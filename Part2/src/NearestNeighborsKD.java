@@ -1,9 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-/*
-NAME:Mohamed Ismail Asaklil
-STUDENT NUMBER: 0300243534
- */
+
 public class NearestNeighborsKD {
     KDtree kdTree;// creating an instance of KDtree inside the NearestNeighborsKD
     // construct with list of points
