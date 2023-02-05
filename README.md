@@ -1,4 +1,5 @@
 # Object-detection-with-the-DBScan-algorithm
+
 ## Part 1: 
 Implementation a data clustering algorithm named DBSCAN -(Density-Based Spatial Clustering of Applications with Noise) & Creation of a program that  
        detects objects (clusters of points in fact) in a scene captured by a LiDAR (a laser scanner):
@@ -15,4 +16,4 @@ Improve the efficiency of this algorithm by using a KD-Tree:
         This part is divided into 3 experiences:
               .Exp1: Make sure our algorithm works, to do so compare the outputs of Part1 with Part2.
               .Exp2: Run a program that will print the time taken to find all the neighbors using linear method or the KD-tree method.
-              .Exp3: Print runtime of your DBScan program created in part 1, then replace the NearestNeighbors class by the NearestNeighborsKD class and compute               again the total runtime.
+              .Exp3: Print runtime of your DBScan program created in part 1, then replace the NearestNeighbors class by the NearestNeighborsKD class and compute again the total runtime.
