@@ -5,7 +5,7 @@
 ### Description of the project:
 
 The intelligent vehicles of the future will be equipped with a multitude of sensors in order to capture information about the surrounding scene and thus being able to autonomously navigate. One of these sensors is the Laser Scanner or LiDAR (Light Detection And Ranging). Using a LiDAR, the vehicle can scan the scene in front by sweeping few laser beams (typically between 8 to 64 lasers).
-![](C:\Users\Ismail\Downloads\13-Figure2.1-1.png)
+![](https://www.semanticscholar.org/paper/Ego-vehicle-localisation-using-LIDAR-and-compressed-Aronsson-Eriksson/010d3f269728a76ef62ead440541bc9481bc4a58)
 
 
 ### Part 1: Implementation a data clustering algorithm named DBSCAN -(Density-Based Spatial Clustering of Applications with Noise) & Creation of a program that detects objects (clusters of points in fact) in a scene captured by a LiDAR (a laser scanner):
