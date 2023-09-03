@@ -5,12 +5,19 @@
 ### Description of the project:
 
 The intelligent vehicles of the future will be equipped with a multitude of sensors in order to capture information about the surrounding scene and thus being able to autonomously navigate. One of these sensors is the Laser Scanner or LiDAR (Light Detection And Ranging). Using a LiDAR, the vehicle can scan the scene in front by sweeping few laser beams (typically between 8 to 64 lasers).
+
+
 ![](https://github.com/asaklil/Object-detection-with-the-DBScan-algorithm/blob/main/Lidar.png)
 
+
 Each time a laser beam hit an object, the laser light bounce back to the LiDAR from which a precise distance can be estimated. A complete scan of the scene with these lasers will therefore generate a large set of 3D points (also called point cloud) that correspond to the structure of the scene. The figure on the next pageshows a typical point cloud captured by a car equipped with a LiDAR; note that to facilitate the visualization, the points are color-coded based on their height with respect to the ground. A view of the same scene captured by a camera is also shown.
+
+
 ![](https://github.com/asaklil/Object-detection-with-the-DBScan-algorithm/blob/main/scanner.png)
 
+
 ![](https://github.com/asaklil/Object-detection-with-the-DBScan-algorithm/blob/main/Frame1.png)
+
 
 As it can be seen, each object of the scene will be represented by several 3D points. These object’s points should form a cluster. The objective of Part 1 of your programming assignment is therefore to run the DBSCAN algorithm on a LiDAR point cloud in order to detect the objects around the vehicle.
 
